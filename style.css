@@ -1,0 +1,130 @@
+*,html,body
+{
+    margin:0;
+}
+body
+{
+    background-color: deeppink;
+}
+.main
+{
+    margin-top: -50px;
+    position: fixed;
+
+    display: flex;
+    min-height: 100px;
+    min-width: 100%;
+    padding-top: 25px;
+    background-color: aqua;
+}
+.main img,.block1 img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 5%;
+    text-align: center;
+}
+.main a,.block1 a
+{
+    text-decoration: none;
+}
+.main a:hover,.block1 a:hover
+{
+    color: red;
+    font-weight: bold;
+}
+.main .name
+{
+    padding-left:0px;
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.block p
+{
+    font-size: 25px;
+}
+.profile h1
+{
+    text-align: center;
+    padding-top: 250px;
+    margin-top: 50px;
+}
+button
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    width:125px;
+    padding: 15px;
+    margin: 50px;
+    background-color: skyblue;
+    font-weight: bold;
+}
+button:hover
+{
+    background-color: red;
+    color: yellow;
+    transition: 0.5s ease;
+}
+.co
+{
+    width: 200px;
+}
+.mar
+{
+    margin-left: 250px;
+    margin-top: 25px;
+}
+
+.block1
+{
+    text-align: center;
+    margin-top: 250px;
+    line-height: 50px;
+    background-color: darkgrey;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.fa
+{
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 30%;
+}
+.fa:hover
+{
+    background-color: red;
+    color: yellow;
+}
+.block ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.block1 h1
+{
+    padding-top: 25px;
+}
+.block1 img
+{
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -10px;
+}
+.block1:hover
+{
+    background-color: yellow;
+    color: red;
+}
+.cno
+{
+    display: flex;
+    padding-left: 35px;
+}
